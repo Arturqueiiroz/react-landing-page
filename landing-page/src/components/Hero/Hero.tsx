@@ -5,7 +5,7 @@ import './hero.css'
 function Hero() {
     return(
         <section className="hero">
-            <div className="container">
+            <div className="container-hero">
                     <span className="tagHero">Plataforma de aprendizado do futuro
                     </span>
                     <h1 className="titleHero">Gestão de aprendizado inteligente para <span> escolas técnicas </span></h1>
