@@ -19,7 +19,23 @@
 .coluna1 {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 50%;
+}
+
+.coluna1 h2{
+    font-size: 3rem;
+    color: var(--black-color);
+    line-height: 3rem;
+        font-weight: bold;
+}
+
+.tagSobre {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 2.4px;
 }
 
 .coluna2 {
@@ -29,4 +45,25 @@
     justify-content: center;
     flex-direction: column;
     width: 50%;
+    gap: 32px;
+}
+.coluna2 h3 {
+    color: var(--black-color);
+    font-size: 1.5 rem;
+}
+
+.item-pilar {
+    display: flex;
+    gap: 16px;
+}
+
+.titulo-pilar {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.descricao-pilar {
+    font-size: 0.875rem;
 }
