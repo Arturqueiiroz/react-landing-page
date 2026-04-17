@@ -1,9 +1,84 @@
+.personas {
+  width: 100%;
+  background: #f3f3f7;
+  padding: 38px 20px 28px;
+}
+
+.container-personas {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .title-personas h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--black-color);
-    font-size: 36px;
-    margin: 50px 0;
-    font-weight: 700;
+  text-align: center;
+  color: #0f213d;
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0 0 34px;
+  font-weight: 700;
+}
+
+.colunas-personas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+  flex-wrap: nowrap;
+}
+
+.personas-pilar {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.personas-icone {
+  width: 82px;
+  height: 82px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.personas-icone img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.personas-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-personas {
+  display: block;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #0f213d;
+  margin-bottom: 2px;
+}
+
+.cargo-personas {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #3f66ff;
+  margin-bottom: 8px;
+}
+
+.descricao-personas {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #6c7485;
+  max-width: 145px;
 }
